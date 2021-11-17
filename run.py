@@ -11,10 +11,13 @@ def play_game():
 
     while True:
         player = input("rock, paper or scissors? ").lower().strip()
+        while player != "rock" and player != "paper" and player != "scissors":
+            player = input("Invalid input, please tyr agin\n").lower()
+
         choices = ["rock", "paper", "scissors"]
         computer = random.choice(choices)
     
-        player_wins = 'You win'
+        player_wins = 'You win!'
         computer_wins = 'You lost!'
 
         # Conditions of Rock,Paper and Scissors
@@ -53,8 +56,18 @@ def play_game():
                 print(player_wins)
                 player_score += 1
             
-        print(f"You played {player}, the computer played {computer}.")
+        print(f"You played {player}.")
+        print(f"the computer played {computer}.")
+      
         print(f"Your score: {player_score} - Computer score: {computer_score}")
+        print()
+
+        user = input("Do you want to quit? (Y/N) ").lower()
+        if user == "y":
+            print("Thanks for playing!")
+            break
+        while user != "y" and user != "n":
+            user = input("Invalid input, please try again: (Y/N)").lower()
         print("\n---------------------------------\n")
 
 play_game()
