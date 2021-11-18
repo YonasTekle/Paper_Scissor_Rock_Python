@@ -4,10 +4,7 @@ Paper Scissor Rock game is a Python terminal game that runs on Heroku.
 
 In this game the user plays against the computer.
 
-
-![Responsice Mockup](/workspace/Paper_Scissor_Rock_Python/img/Am I Responsive_.png)
-=======
-![Responsice Mockup]()
+![Responsice Mockup](/workspace/Paper_Scissor_Rock_Python/img)
 
 ## Features 
 
@@ -33,13 +30,15 @@ In this game the user plays against the computer.
 
 - __Meetup Times section__
 
-  
+  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
+  - This section will be updated as these times change to keep the user up to date. 
 
 ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
 - __The Footer__ 
 
- 
+  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
