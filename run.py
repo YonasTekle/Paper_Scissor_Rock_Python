@@ -19,7 +19,7 @@ def play_game():
    
 # Asking for the user input.
     while True:
-        player = input("rock, paper or scissors? ").lower().strip()
+        player = input("rock, paper or scissors?\n").lower().strip()
         while player != "rock" and player != "paper" and player != "scissors":
             player = input("Invalid, please try again:\n").lower()
 
@@ -72,12 +72,12 @@ def play_game():
         print("---------------------------------")
 
         # Asking the user if they want to play again.
-        user = input("Do you want to play again? (Y/N)").lower()
+        user = input("Do you want to play again? (Y/N)\n").lower()
         if user == "n":
             print("Thanks for playing!")
             break
         while user != "y" and user != "n":
-            user = input("Invalid, please try again: (Y/N)").lower()
+            user = input("Invalid, please try again: (Y/N)\n").lower()
         if user == 'n':
             print("Thanks for playing!")
             break   
