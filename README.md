@@ -4,7 +4,7 @@ Paper Scissor Rock game is a Python terminal game that runs on Heroku.
 
 In this game the user plays against the computer.
 
-![Responsice Mockup](Am I Responsive.PNG)
+![Responsice Mockup](views/Am I Responsive.PNG)
 
 ## Features 
 
