@@ -2,7 +2,10 @@
 
 Paper Scissor Rock game is a Python terminal game that runs on Heroku.
 
-In this game the user plays against the computer.
+Rock paper scissors are played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. These shapes are "rock" (a closed fist), "paper" (a flat hand), and "scissors" (a fist with the index finger and middle finger extended, forming a V.
+
+In this game, the user’s opponent is the computer and the computer chose randomly rock paper and scissors. Users of the game will learn the rules of the game.
+
 ![Responsive Page](views/Responsive.PNG)
 
 ## Features 
