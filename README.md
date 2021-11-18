@@ -11,15 +11,14 @@ In this game, the user’s opponent is the computer and the computer chose rando
 ## Features 
 ![Main_Game](views/main.PNG)
 
-
-### Existing Features
-
-- __Navigation Bar__
+- Play against the computer
+- Accept user input
+- Maintain scores
 
 
 ![Invalid_input](views/Capture.PNG)
 
-- __The landing page image__
+- __Input validation__
 
 
 
