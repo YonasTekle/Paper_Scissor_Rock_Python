@@ -9,16 +9,18 @@ In this game, the user’s opponent is the computer and the computer chose rando
 ![Responsive Page](views/Responsive.PNG)
 
 ## Features 
-![Main_Game](views/main.PNG)
-
 - Play against the computer
 - Accept user input
 - Maintain scores
+- 
+![Main_Game](views/main.PNG)
+
+- __Input validation__
 
 
 ![Invalid_input](views/Capture.PNG)
 
-- __Input validation__
+
 
 
 
