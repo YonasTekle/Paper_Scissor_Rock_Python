@@ -15,7 +15,7 @@ In this game the user plays against the computer.
 - __Navigation Bar__
 
 
-![Nav Bar]()
+![Nav Bar](views/Capture.PNG)
 
 - __The landing page image__
 
