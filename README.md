@@ -6,7 +6,7 @@ In this game the user plays against the computer.
 ![Responsive Page](views/Responsive.PNG)
 
 ## Features 
-
+![Main_Game](views/main.PNG)
 
 
 ### Existing Features
@@ -14,7 +14,7 @@ In this game the user plays against the computer.
 - __Navigation Bar__
 
 
-![Nav Bar](views/Capture.PNG)
+![Invalid_input](views/Capture.PNG)
 
 - __The landing page image__
 
