@@ -30,7 +30,7 @@ In this game the user plays against the computer.
   - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
   - This section will be updated as these times change to keep the user up to date. 
 
-![Responsive Page](views/Am I Responsive.PNG)
+![Responsive Page](views/Responsive.PNG)
 
 - __The Footer__ 
 
