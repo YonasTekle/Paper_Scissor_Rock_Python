@@ -1,10 +1,15 @@
 # Importing random library
 import random
 
-
+print("\n---------------------------------")
 print("Welcome to Rock Paper Scissors Game")
-print()
-print("Rules of the  game as follows:\nRock vs paper-> Paper wins\nRock vs scissor-> Rock wins\nPaper vs scissor-> scissor wins \n")
+print("---------------------------------")
+print("Game Rules:\nRock vs paper-> Paper wins\nRock vs scissor-> Rock wins\nPaper vs scissor-> scissor wins \n")
+
+class Game_Rock_Paper_Scissors:
+    def __init__(self, player, computer):
+        self.player = player
+        self.computer = computer
 
 def play_game():
 
@@ -12,22 +17,20 @@ def play_game():
     computer_score = 0
    
    
-    # Asking for the user input
+# Asking for the user input.
     while True:
         player = input("rock, paper or scissors? ").lower().strip()
         while player != "rock" and player != "paper" and player != "scissors":
-            player = input("Invalid information provided please try again:\n").lower()
+            player = input("Invalid, please try again:\n").lower()
 
-        # computer random choice
+        # computer random choice.
         choices = ["rock", "paper", "scissors"]
         computer = random.choice(choices)
-    
         player_wins = 'You win!'
         computer_wins = 'You lost!'
+        print("---------------------------------")
 
-        print()
-        # Defining the conditions of Rock,Paper and Scissors
-        
+        # Defining the conditions of Rock,Paper and Scissors.
         if player == "rock":
             if computer == "rock":
                 print("It's A Tie!!!")
@@ -61,25 +64,23 @@ def play_game():
             elif computer == "paper":
                 print(player_wins)
                 player_score += 1
-        print() 
+        print("---------------------------------")
         print(f"You played {player}.")
-        print()
         print(f"The computer played {computer}.")
         print()
         print(f"Your score: {player_score} - Computer score: {computer_score}")
-        print()
+        print("---------------------------------")
 
-        # Asking the user if they want to play again 
+        # Asking the user if they want to play again.
         user = input("Do you want to play again? (Y/N)").lower()
         if user == "n":
             print("Thanks for playing!")
             break
         while user != "y" and user != "n":
-            user = input("Invalid information provided please try again: (Y/N)").lower()
+            user = input("Invalid, please try again: (Y/N)").lower()
         if user == 'n':
             print("Thanks for playing!")
             break   
-           
         print("\n---------------------------------\n")
 
 play_game()
