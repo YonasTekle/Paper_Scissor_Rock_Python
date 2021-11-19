@@ -16,27 +16,28 @@ In this game, the user’s opponent is the computer and the computer chose rando
 
 ![Invalid_input](views/Capture.PNG)
 
+
 - __Input validation__
-Input validation 
 - User can only input rock, paper och scissors 
 - User can only input (Y/N) when asked if they want to play again
 
 ![Main_Game](views/main.PNG)
 
+## Testing
 - __Validator Testing__
 I have tested this game by doing the following
 - Passed the code through a PEP8 and confirmed there are no problems.
 - Tested in my local terminal and Heroku terminal.
 - I tested the game by providing invalid data.
 
-- __Deployment__
+## Deployment
 
   -  Created a new Heroku app for this game
   -  hanged buildingpacks settings by to Python and NodeJS
   -  Linked Heroku app to Github repository
   -  Enabled automatic deploys
 
-- __Credits__ 
+## Credits
 
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
