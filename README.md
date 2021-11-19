@@ -18,22 +18,22 @@ In this game, the user’s opponent is the computer and the computer chose rando
 
 
 - __Input validation__
-- User can only input rock, paper och scissors 
-- User can only input (Y/N) when asked if they want to play again
+  - User can only input rock, paper och scissors 
+  - User can only input (Y/N) when asked if they want to play again
 
 ![Main_Game](views/main.PNG)
 
 ## Testing
 - __Validator Testing__
-I have tested this game by doing the following
-- Passed the code through a PEP8 and confirmed there are no problems.
-- Tested in my local terminal and Heroku terminal.
-- I tested the game by providing invalid data.
+    I have tested this game by doing the following
+  - Passed the code through a PEP8 and confirmed there are no problems.
+  - Tested in my local terminal and Heroku terminal.
+  - I tested the game by providing invalid data.
 
 ## Deployment
 
-  -  Created a new Heroku app for this game
-  -  hanged buildingpacks settings by to Python and NodeJS
+   -  Created a new Heroku app for this game
+   -  hanged buildingpacks settings by to Python and NodeJS
   -  Linked Heroku app to Github repository
   -  Enabled automatic deploys
 
