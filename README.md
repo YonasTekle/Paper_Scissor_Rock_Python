@@ -24,8 +24,8 @@ In this game, the user’s opponent is the computer and the computer chose rando
 ![Main_Game](views/main.PNG)
 
 ## Testing
+I have tested this game by doing the following
 - __Validator Testing__
-    I have tested this game by doing the following
   - Passed the code through a PEP8 and confirmed there are no problems.
   - Tested in my local terminal and Heroku terminal.
   - I tested the game by providing invalid data.
