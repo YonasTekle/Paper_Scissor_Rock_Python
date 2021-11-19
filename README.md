@@ -35,15 +35,15 @@ I have tested this game by doing the following
 
 ## Deployment
 
-   -  Created a new Heroku app for this game
-   -  hanged buildingpacks settings by to Python and NodeJS
-  -  Linked Heroku app to Github repository
-  -  Enabled automatic deploys
+   - Created a new Heroku app for this game
+   - hanged buildingpacks settings by to Python and NodeJS
+   - Linked Heroku app to Github repository
+   - Enabled automatic deploys
 
 ## Credits
 
   - Wikipedia for details of The game. 
   - Code Institue Portfolio projekt scope and Love Sandwiches project.
-  - 
+  
 
 
