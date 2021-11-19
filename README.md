@@ -12,15 +12,16 @@ In this game, the user’s opponent is the computer and the computer chose rando
 - Play against the computer
 - Accept user input
 - Maintain scores
-- 
-![Main_Game](views/main.PNG)
+
+[Click here to play my game](https://rock-paper-scissors-yonas.herokuapp.com/)
+![Invalid_input](views/Capture.PNG)
 
 - __Input validation__
 Input validation 
 - You can only input rock, paper och scissors 
 - You can only input (Y/N) when asked if you want to play again
 
-![Invalid_input](views/Capture.PNG)
+![Main_Game](views/main.PNG)
 
 - __Validator Testing__
 I have manually tested this project by doing the following
