@@ -10,31 +10,31 @@ In this game, the user’s opponent is the computer and the computer chose rando
 ![Responsive Page](views/Responsive.PNG)
 
 ## Features 
-- Play against the computer
-- Accept user input
-- Maintain scores
+- A player competing against the computer
+- Requires user input  
+- The  game includes a score counter
 
 ![Invalid_input](views/Capture.PNG)
 
 - __Input validation__
 Input validation 
-- You can only input rock, paper och scissors 
-- You can only input (Y/N) when asked if you want to play again
+- User can only input rock, paper och scissors 
+- User can only input (Y/N) when asked if they want to play again
 
 ![Main_Game](views/main.PNG)
 
 - __Validator Testing__
-I have manually tested this project by doing the following
-- Passed the code through a PEP8 linter and confirmed there are no problems.
-- Tested in my local terminal and Heroku termina
-- Given invalid input data
+I have tested this game by doing the following
+- Passed the code through a PEP8 and confirmed there are no problems.
+- Tested in my local terminal and Heroku terminal.
+- I tested the game by providing invalid data.
 
 - __Deployment__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-
+  -  Created a new Heroku app for this game
+  -  hanged buildingpacks settings by to Python and NodeJS
+  -  Linked Heroku app to Github repository
+  -  Enabled automatic deploys
 
 - __Credits__ 
 
